@@ -3,6 +3,7 @@
 
 ### Upcoming
 
+* Messages are now stored serialized by default in MongoDB too, not just Syslog (#23, #24).
 * Quality control: Travis CI and Bithound integration
 
 ### 0.1.17

@@ -22,6 +22,11 @@ const BrowserProcessor = class extends ProcessorBase {
     }
   }
 
+  /** @inheritdoc */
+  getTrustedKeys() {
+    return ['browser'];
+  }
+
   /**
    * The only required method for processor implementations.
    *

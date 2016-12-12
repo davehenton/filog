@@ -109,6 +109,11 @@ const MeteorUserProcessor = class extends ProcessorBase {
     return result;
   }
 
+  /** @inheritdoc */
+  getTrustedKeys() {
+    return ['meteor'];
+  }
+
   /**
    * Return the current user information, as far as possible.
    *
