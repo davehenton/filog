@@ -5,6 +5,7 @@ import ServerLogger from "../../src/ServerLogger";
 function testImmutableContext() {
   const strategy = {
     customizeLogger: () => [],
+    customizeSenders: () => [],
     selectSenders: () => [],
   };
   test("should not modify context in log() calls", () => {
