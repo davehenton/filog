@@ -5,6 +5,7 @@ import ServerLogger from "../../src/ServerLogger";
 const testConstructor = () => {
   const strategy = {
     customizeLogger: () => [],
+    customizeSenders: () => [],
     selectSenders: () => [],
   };
   global.Meteor = { methods: NullFn };
